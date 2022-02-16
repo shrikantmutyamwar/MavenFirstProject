@@ -11,6 +11,7 @@
           <include name="test03"/>
           <include name="verifyLoginBoxMsg"/>
           <include name="closesetup"/>
+          <include name="setup1"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
