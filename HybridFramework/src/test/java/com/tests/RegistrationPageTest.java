@@ -22,17 +22,17 @@ public class RegistrationPageTest extends BaseClass{
 	LoginPage lp = null;
 	RegistrationPage rp = null;
 	
-	@BeforeMethod
+	@BeforeClass
 	public void setup(){
 		initialization();            // calling from baseClass
-		reportInit();                // calling from baseClass
+		//reportInit();                // calling from baseClass
 		lp = new LoginPage(driver);  // this driver comes from base class and goes to login page
 		rp = lp.registerLink();
 	}
 
-	@AfterMethod
+	@AfterClass
 	public void teardown(){
-		report.flush();   // to save all the data into the report
+		//report.flush();   // to save all the data into the report
         driver.close();
        // driver.quit();
 	}

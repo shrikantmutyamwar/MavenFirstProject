@@ -25,10 +25,7 @@ public class LoginPageTest extends BaseClass {
 	@BeforeSuite
 	public void setup() {
 		log.info("inside loginPage before suite");
-		initialization();
 		reportInit();
-
-		lp = new LoginPage(driver);
 		//driver.manage().deleteAllCookies();
 	}
 
@@ -36,18 +33,21 @@ public class LoginPageTest extends BaseClass {
 	public void teardown() {
 		log.info("inside loginPage after suite");
 		report.flush(); // to save all the data into the report
-	    driver.close();
-		//driver.quit();
+	   // driver.close();
 	}
 
-//	@BeforeClass
-//	public void setup1() {
-//		initialization();
-//		reportInit();
-//	}
+	@BeforeClass
+	public void setup1() {
+		log.info("inside loginPage before class");
+		initialization();
+		//reportInit();
+		lp = new LoginPage(driver);
+	}
 
 	@AfterClass
 	public void closesetup() {
+		log.info("inside loginPage after class");
+		//report.flush();
 		driver.close();
 	}
 
