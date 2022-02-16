@@ -1,0 +1,14 @@
+2022-02-13 02:24:16,892  INFO [main] BaseClass:27 - inside loginPage before suite
+2022-02-13 02:24:16,892  INFO [main] BaseClass:32 - Initializing the browser
+2022-02-13 02:24:16,892  INFO [main] BaseClass:13 - reading proprty file for a key :-browser
+2022-02-13 02:24:16,892  INFO [main] BaseClass:23 - value assign to the key is found as chrome
+2022-02-13 02:24:36,222  INFO [main] BaseClass:13 - reading proprty file for a key :-url
+2022-02-13 02:24:36,222  INFO [main] BaseClass:23 - value assign to the key is found as file:///D:/Jbk%20soft/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-02-13 02:24:43,888  INFO [main] BaseClass:13 - reading proprty file for a key :-url
+2022-02-13 02:24:43,890  INFO [main] BaseClass:23 - value assign to the key is found as file:///D:/Jbk%20soft/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-02-13 02:24:51,245  INFO [main] BaseClass:32 - Initializing the browser
+2022-02-13 02:24:51,247  INFO [main] BaseClass:13 - reading proprty file for a key :-browser
+2022-02-13 02:24:51,248  INFO [main] BaseClass:23 - value assign to the key is found as chrome
+2022-02-13 02:24:57,755  INFO [main] BaseClass:13 - reading proprty file for a key :-url
+2022-02-13 02:24:57,755  INFO [main] BaseClass:23 - value assign to the key is found as file:///D:/Jbk%20soft/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-02-13 02:25:09,131  INFO [main] BaseClass:37 - inside loginPage after suite

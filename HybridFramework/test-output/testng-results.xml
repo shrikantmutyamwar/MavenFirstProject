@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="17" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19801" started-at="2022-02-12T15:45:11Z" finished-at="2022-02-12T15:45:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19801" started-at="2022-02-12T15:45:11Z" finished-at="2022-02-12T15:45:31Z">
+      <class name="com.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="setup" is-config="true" duration-ms="12530" started-at="2022-02-12T15:44:59Z" finished-at="2022-02-12T15:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test03()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="test03" duration-ms="28" started-at="2022-02-12T15:45:12Z" finished-at="2022-02-12T15:45:12Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping a test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping a test case
+at com.tests.LoginPageTest.test03(LoginPageTest.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="verifyBlankEmailField()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyBlankEmailField" duration-ms="644" started-at="2022-02-12T15:45:12Z" finished-at="2022-02-12T15:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankEmailField -->
+        <test-method status="PASS" signature="verifyBlankPasswordField()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyBlankPasswordField" duration-ms="414" started-at="2022-02-12T15:45:12Z" finished-at="2022-02-12T15:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankPasswordField -->
+        <test-method status="PASS" signature="verifyCompanyTechnologies()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyCompanyTechnologies" duration-ms="66" started-at="2022-02-12T15:45:13Z" finished-at="2022-02-12T15:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyTechnologies -->
+        <test-method status="PASS" signature="verifyCorrectLoginCredentials()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyCorrectLoginCredentials" duration-ms="2389" started-at="2022-02-12T15:45:13Z" finished-at="2022-02-12T15:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectLoginCredentials -->
+        <test-method status="PASS" signature="verifyIncorrectEmail()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyIncorrectEmail" duration-ms="716" started-at="2022-02-12T15:45:15Z" finished-at="2022-02-12T15:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmail -->
+        <test-method status="PASS" signature="verifyIncorrectLoginCredentials()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyIncorrectLoginCredentials" duration-ms="539" started-at="2022-02-12T15:45:16Z" finished-at="2022-02-12T15:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectLoginCredentials -->
+        <test-method status="PASS" signature="verifyIncorrectPassword()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyIncorrectPassword" duration-ms="431" started-at="2022-02-12T15:45:16Z" finished-at="2022-02-12T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectPassword -->
+        <test-method status="SKIP" signature="verifyLoginBoxMsg()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyLoginBoxMsg" duration-ms="2" started-at="2022-02-12T15:45:17Z" finished-at="2022-02-12T15:45:17Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping a test case verify login box msg]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping a test case verify login box msg
+at com.tests.LoginPageTest.verifyLoginBoxMsg(LoginPageTest.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBoxMsg -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyLoginPageTitle" duration-ms="17" started-at="2022-02-12T15:45:17Z" finished-at="2022-02-12T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="verifyNoDataLogin()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyNoDataLogin" duration-ms="461" started-at="2022-02-12T15:45:17Z" finished-at="2022-02-12T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoDataLogin -->
+        <test-method status="PASS" signature="verifyRegisterNewMembershipLinkClikable()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifyRegisterNewMembershipLinkClikable" duration-ms="457" started-at="2022-02-12T15:45:17Z" finished-at="2022-02-12T15:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterNewMembershipLinkClikable -->
+        <test-method status="PASS" signature="verifycompanyName()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="verifycompanyName" duration-ms="76" started-at="2022-02-12T15:45:18Z" finished-at="2022-02-12T15:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycompanyName -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="closesetup" is-config="true" duration-ms="314" started-at="2022-02-12T15:45:18Z" finished-at="2022-02-12T15:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.tests.LoginPageTest@7d907bac]" name="teardown" is-config="true" duration-ms="66" started-at="2022-02-12T15:45:31Z" finished-at="2022-02-12T15:45:32Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP5KJ4J', ip: '192.168.73.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4276f1061fd6f415bdad5826b59b6e26]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP5KJ4J', ip: '192.168.73.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4276f1061fd6f415bdad5826b59b6e26
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.tests.LoginPageTest.teardown(LoginPageTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.LoginPageTest -->
+      <class name="com.tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="setup" is-config="true" duration-ms="9235" started-at="2022-02-12T15:45:18Z" finished-at="2022-02-12T15:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAlreadyMembershipLink()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="verifyAlreadyMembershipLink" duration-ms="277" started-at="2022-02-12T15:45:27Z" finished-at="2022-02-12T15:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlreadyMembershipLink -->
+        <test-method status="PASS" signature="verifyBlankDataOnRegistrationForm()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="verifyBlankDataOnRegistrationForm" duration-ms="1183" started-at="2022-02-12T15:45:28Z" finished-at="2022-02-12T15:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankDataOnRegistrationForm -->
+        <test-method status="PASS" signature="verifyRegistrationPageForm()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="verifyRegistrationPageForm" duration-ms="944" started-at="2022-02-12T15:45:29Z" finished-at="2022-02-12T15:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPageForm -->
+        <test-method status="PASS" signature="verifyTextRegNewMembership()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="verifyTextRegNewMembership" duration-ms="78" started-at="2022-02-12T15:45:30Z" finished-at="2022-02-12T15:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextRegNewMembership -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tests.RegistrationPageTest@7791a895]" name="teardown" is-config="true" duration-ms="1412" started-at="2022-02-12T15:45:30Z" finished-at="2022-02-12T15:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.RegistrationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
