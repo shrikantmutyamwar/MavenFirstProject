@@ -16,7 +16,7 @@ import com.pages.Dashboardpage;
 import com.pages.LoginPage;
 import com.utility.PropertiesUtility;
 
-@Listeners(ListenerEx.class)
+//@Listeners(ListenerEx.class)
 public class LoginPageTest extends BaseClass {
 
 	LoginPage lp = null;

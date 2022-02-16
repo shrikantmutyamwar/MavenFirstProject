@@ -2,8 +2,10 @@ package com.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -20,7 +22,7 @@ public class RegistrationPageTest extends BaseClass{
 	LoginPage lp = null;
 	RegistrationPage rp = null;
 	
-	@BeforeClass
+	@BeforeMethod
 	public void setup(){
 		initialization();            // calling from baseClass
 		reportInit();                // calling from baseClass
@@ -28,7 +30,7 @@ public class RegistrationPageTest extends BaseClass{
 		rp = lp.registerLink();
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void teardown(){
 		report.flush();   // to save all the data into the report
         driver.close();
